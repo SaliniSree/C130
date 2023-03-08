@@ -7,3 +7,21 @@
 'gaia_disterr1','gaia_disterr2', 'gaia_distlim', 'st_optmag', 'st_optmagerr','st_optmaglim', 'st_optband', 'gaia_gmag', 'gaia_gmagerr',
 'gaia_gmaglim',  'st_tefferr1', 'st_tefferr2', 'st_tefflim','st_masserr1', 'st_masserr2', 'st_masslim', 'st_raderr1', 'st_raderr2', 
 'st_radlim', 'rowupdate', 'pl_facility'
+
+
+
+
+#rename
+
+
+{
+                'pl_hostname': "solar_system_name", 
+                'pl_discmethod': "planet_discovery_method", 
+                'pl_orbincl': "planet_orbital_inclination", 
+                'pl_dens': "planet_density", 
+                'ra_str': "right_ascension", 
+                'dec_str': "declination", 
+                "st_teff": "host_temperature", 
+                'st_mass': "host_mass", 
+                'st_rad': "host_radius"
+            }, axis='columns'
